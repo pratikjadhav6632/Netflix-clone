@@ -106,3 +106,45 @@ body{
     height: 600px;
    
 }
+
+.secfirst{
+    color: white;
+    display: flex;
+    max-width: 70vw;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 500px;
+}
+.secimg{
+    margin-left: 30px;
+    position: relative;
+}
+.sec img{
+    position: relative;
+    width: 35vw;
+    z-index: 10;
+}
+.sec video{
+    position: absolute;
+    top: 51px;
+    right: 0;
+    width: 30vw;
+}
+
+.txt :nth-child(1){
+   
+    font-size: 3rem;
+    font-family:'Poppins', sans-serif; ;
+    font-weight: 600;
+}
+.txt :nth-child(2){
+    font-size: 2rem;
+ 
+}
+.seperation2{
+    height: 7px;
+    background-color: rgb(46, 44, 44);
+    position: relative;
+    z-index: 20;
+}
