@@ -1,11 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@300;400;700&display=swap');
-*{
-    margin: 0;padding: 0;
+
+* {
+    margin: 0;
+    padding: 0;
 }
-body{
+
+body {
     background-color: black;
 }
-.main{
+
+.main {
     height: 680px;
     background-image: url(assets/bg.jpg);
     background-repeat: no-repeat;
@@ -13,7 +17,8 @@ body{
     background-size: max(100vw 1200vh);
     position: relative;
 }
-.box{
+
+.box {
     height: 680px;
     width: 100%;
     background-color: black;
@@ -21,23 +26,26 @@ body{
     position: absolute;
     top: 0;
 }
-.navbar{
-        height: 100px;
-        max-width:  60vw;
-        margin: auto;
-        display:flex ;
-        justify-content: space-between;
-        align-items: center;
-        
-        position: relative;
-        z-index: 12;
+
+.navbar {
+    height: 100px;
+    max-width: 60vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    position: relative;
+    z-index: 12;
 }
-.navbar img{
+
+.navbar img {
     width: 130px;
     position: relative;
     color: red;
 }
-.hero{
+
+.hero {
     color: aliceblue;
     display: flex;
     align-items: center;
@@ -51,39 +59,46 @@ body{
     padding: 34px 30px;
 }
 
-.hero> :nth-child(1){
-    font-family:'Poppins', sans-serif; ;
-        font-size: 45px;
-        font-weight: 700;
+.hero> :nth-child(1) {
+    font-family: 'Poppins', sans-serif;
+    ;
+    font-size: 45px;
+    font-weight: 700;
 }
 
-.hero> :nth-child(2){
-    font-family:'Poppins', sans-serif; ;
-        font-size: 25px;
-        font-weight: 200;
+.hero> :nth-child(2) {
+    font-family: 'Poppins', sans-serif;
+    ;
+    font-size: 25px;
+    font-weight: 200;
 }
-.hero> :nth-child(3){
-    font-family:'Poppins', sans-serif; ;
-        font-size: 20px;
-        font-weight: 100;
+
+.hero> :nth-child(3) {
+    font-family: 'Poppins', sans-serif;
+    ;
+    font-size: 20px;
+    font-weight: 100;
 }
-.btn{
-   background-color: rgba(248, 243, 243, 0.021);
-   border: 1px solid white;
-  padding: 7px 31px 8px 34px;
-   color: white;
-   cursor: pointer;
-   font-weight: 400;
+
+.btn {
+    background-color: rgba(248, 243, 243, 0.021);
+    border: 1px solid white;
+    padding: 7px 31px 8px 34px;
+    color: white;
+    cursor: pointer;
+    font-weight: 400;
     z-index: 12;
 }
-.btn-red{
+
+.btn-red {
     background-color: red;
     border: none;
     border-radius: 4px;
     padding: 8px 20px 8px 20px;
 
 }
-.main input{
+
+.main input {
     padding: 17px 101px 18px 102px;
     color: white;
     font-size: 12px;
@@ -92,22 +107,24 @@ body{
     border: 1px solid rgba(246, 238, 238, 0.5);
 }
 
-.btn-red-2{
+.btn-red-2 {
     padding: 17px 101px 18px 14px;
     margin-left: 10px;
 }
-.seperation{
+
+.seperation {
     height: 7px;
     background-color: rgb(46, 44, 44);
     position: relative;
     z-index: 20;
 }
-.content{
+
+.content {
     height: 600px;
-   
+
 }
 
-.secfirst{
+.secfirst {
     color: white;
     display: flex;
     max-width: 70vw;
@@ -116,35 +133,147 @@ body{
     margin: auto;
     height: 500px;
 }
-.secimg{
+
+.secimg {
     margin-left: 30px;
     position: relative;
 }
-.sec img{
+
+.sec img {
     position: relative;
     width: 35vw;
     z-index: 10;
 }
-.sec video{
+
+.sec video {
     position: absolute;
     top: 51px;
     right: 0;
     width: 30vw;
 }
 
-.txt :nth-child(1){
-   
+.txt :nth-child(1) {
+    color: white;
     font-size: 3rem;
-    font-family:'Poppins', sans-serif; ;
+    font-family: 'Poppins', sans-serif;
+    ;
     font-weight: 600;
+
 }
-.txt :nth-child(2){
+
+.txt :nth-child(2) {
     font-size: 2rem;
- 
+    color: white;
 }
-.seperation2{
+
+.seperation2 {
     height: 7px;
     background-color: rgb(46, 44, 44);
     position: relative;
     z-index: 20;
+}
+
+.secsecond {
+    margin-top: 50px;
+    height: 450px;
+
+}
+
+.img2 {
+    width: 200px;
+    position: relative;
+    left: 150px;
+}
+
+.download {
+    display: flex;
+    color: white;
+    position: relative;
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 9px;
+    width: 320px;
+    height: 98px;
+    left: 110px;
+    bottom: 140px;
+    z-index: 10;
+    padding: 5pxpx;
+}
+
+.download img {
+    position: relative;
+    top: 8px;
+    left: 15px;
+    width: 57px;
+    height: 84px;
+}
+
+.download h4 {
+    position: relative;
+    margin: auto;
+    left: 17px;
+
+}
+
+.download p {
+    color: blue;
+    position: relative;
+    top: 60px;
+    right: 119px;
+}
+
+.download>.d-icon {
+    position: absolute;
+    width: 41px;
+    height: 50px;
+    left: 265px;
+    top: 30px;
+}
+
+.txt2 {
+    position: relative;
+    width: 600px;
+    float: right;
+    right: 150px;
+    bottom: 380px;
+}
+
+.head2 {
+    position: relative;
+    z-index: 10;
+}
+
+.text2 {
+    position: relative;
+    z-index: 10;
+}
+.secthird{
+    color: white;
+    display: flex;
+    max-width: 70vw;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 500px;
+    position: relative;
+    left: 310px;
+    
+}
+.secthird video{
+    position: absolute;
+    top: 90px;
+    width: 20vw;
+
+}
+.secthird img{
+    position: relative;
+    width: 35vw;
+    z-index: 10;
+}
+.txt3{
+    width: 600px;
+}
+.txt3 :nth-child(1){
+    width: 600px;
+    display: flex;
 }
