@@ -277,3 +277,38 @@ body {
     width: 600px;
     display: flex;
 }
+
+.secfourth{
+    color: white;
+    display: flex;
+    max-width: 70vw;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 500px;  
+}
+.FAQ{
+    width: 70vw;
+    height: 600px;
+    display: block;
+    justify-content: center;
+    text-align: center;
+}
+.FAQ > .head1{
+    color: white;
+    font-size: 3rem;
+    font-family: 'Poppins', sans-serif;;
+    font-weight: 600;
+}
+
+.box{
+    width: 900px;
+    height: 84px;
+    background-color: aliceblue;
+}
+.s-Q{
+    position: relative;
+    z-index: 10;
+    font-size: 2rem;
+    color: white;
+}
