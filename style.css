@@ -289,26 +289,110 @@ body {
 }
 .FAQ{
     width: 70vw;
-    height: 600px;
+    height: 870px;
     display: block;
     justify-content: center;
-    text-align: center;
+    margin-left:9vw;
 }
 .FAQ > .head1{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    margin-left: 150px;
+    margin-bottom: 10px;
     color: white;
     font-size: 3rem;
     font-family: 'Poppins', sans-serif;;
     font-weight: 600;
 }
 
-.box{
-    width: 900px;
+.box2{
+    width:80vw;
     height: 84px;
-    background-color: aliceblue;
+    
+    background-color: rgb(45,45,45);
+    position: relative;
+    margin-top: 10px;
+    padding-left: 19px;
+    margin-bottom: 10px;
 }
 .s-Q{
     position: relative;
     z-index: 10;
     font-size: 2rem;
     color: white;
+    padding-top: 20px;
+}
+.Q{
+   display: flex;
+}
+#q-icon{
+   position: absolute;
+   color: white;
+   font-size: 2.5rem;
+   right: 20px;
+   top: 10px;
+}
+.FAQ input {
+    padding: 17px 101px 18px 102px;
+    color: white;
+    font-size: 12px;
+    border-radius: 4px;
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px solid rgba(246, 238, 238, 0.5);
+}
+.q-txt{
+    color: white;
+    font-family: 'Poppins', sans-serif;;
+    font-size: 20px;
+    font-weight: 100;
+    margin-bottom: 15px;
+    position: relative;
+    right: 35px;
+}
+.btn-last{
+    position: relative;
+    left: 23vw;
+    top: 50px;
+    bottom: 50px;
+}
+footer{
+    height: 200px;
+}
+.footer-content{
+    display: flex;
+  
+}
+.box-3{
+    width: 250px;
+    height: 500px;
+    margin-top: 110px;
+}
+.footer-content p{
+    color:  rgba(255, 255, 255, 0.7);
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+   
+}
+.footer-content a{
+    color: rgba(255, 255, 255, 0.7);
+    gap: 20px;
+}
+.footer-content ul li{
+    color: rgba(255, 255, 255, 0.7);
+    list-style: none;
+    margin-bottom: 20px;
+}
+.f-p{
+   position: relative;
+   top: 60px;
+   left: 14.5vw;
+
+}
+.btn-last-2{
+    margin-top: 11px;
+}
+.li-last{
+    margin-top: 16px;
 }
