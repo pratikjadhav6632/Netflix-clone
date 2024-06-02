@@ -1,13 +1,13 @@
-Netflix Clone
-1. Introduction
+<h1>Netflix Clone</h1>
+<h1> Introduction</h1>
 Welcome to my Netflix clone website! This project is a front-end clone of the popular streaming service website, Netflix.com. It is built using HTML and CSS and is hosted on GitHub.
 
-2. Demo
+<h1> Demo</h1>
 <img src="Netflix-clone_demo.png">
-3. Installation Steps
+<h1> Installation Steps</h1>
     Clone the repository
     <pre>
-    git clone https://github.com/your-username/netflix-clone.git
+   [ git clone https://github.com/your-username/netflix-clone.git](https://github.com/DevloperPratikjadhav/Netflix-clone)
     </pre>
 
    Navigate to the project directory 
@@ -20,10 +20,10 @@ Welcome to my Netflix clone website! This project is a front-end clone of the po
     open index.html
     </pre>
 
-4. Contact Info
+<h1> Contact Info</h1>
 For any questions or suggestions, please contact me at:
 
 Email: pratikjadhav6632@gmail.com
-GitHub: https://github.com/your-username/netflix-clone
+GitHub: https://github.com/DevloperPratikjadhav/Netflix-clone
 
  
