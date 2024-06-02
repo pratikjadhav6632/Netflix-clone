@@ -7,7 +7,7 @@ Welcome to my Netflix clone website! This project is a front-end clone of the po
 <h1> Installation Steps</h1>
     Clone the repository
     <pre>
-   [ git clone https://github.com/your-username/netflix-clone.git](https://github.com/DevloperPratikjadhav/Netflix-clone)
+  https://github.com/DevloperPratikjadhav/Netflix-clone
     </pre>
 
    Navigate to the project directory 
@@ -23,7 +23,7 @@ Welcome to my Netflix clone website! This project is a front-end clone of the po
 <h1> Contact Info</h1>
 For any questions or suggestions, please contact me at:
 
-Email: pratikjadhav6632@gmail.com
+Email: pratikjadhav6632@gmail.com <br>
 GitHub: https://github.com/DevloperPratikjadhav/Netflix-clone
 
  
