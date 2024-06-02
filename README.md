@@ -3,6 +3,7 @@
 Welcome to my Netflix clone website! This project is a front-end clone of the popular streaming service website, Netflix.com. It is built using HTML and CSS and is hosted on GitHub.
 
 <h1> Demo</h1>
+<a href="https://devloperpratikjadhav.github.io/Netflix-clone/">Click here</a>
 <img src="Netflix-clone_demo.png">
 <h1> Installation Steps</h1>
     Clone the repository
