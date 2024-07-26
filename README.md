@@ -1,6 +1,6 @@
 <h1>Netflix Clone</h1>
 <h1> Introduction</h1>
-Welcome to my Netflix clone website! This project is a front-end clone of the popular streaming service website, Netflix.com. It is built using HTML and CSS and is hosted on GitHub.
+Welcome to my Netflix clone website! This project is a front-end clone of the popular streaming service website, Netflix.com. It is built using HTML and CSS and is hosted on GitHub  ( Only for Desktops).
 
 <h1> Demo</h1>
 <a href="https://devloperpratikjadhav.github.io/Netflix-clone/">Click here</a>
